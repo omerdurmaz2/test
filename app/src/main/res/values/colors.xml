@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3DAEB2</color>
+    <color name="colorPrimaryDark">#3DAEB2</color>
+    <color name="colorAccent">#3DAEB2</color>
+    <color name="transparent">#00000000</color>
+    <color name="colorTelappyBlue">#3DAEB2</color>
+    <color name="colorTelappyLowOpacityBlue">#92C6C8</color>
+    <color name="colorTelappyLightBlue">#BBDED7</color>
+    <color name="colorTelappyPastelBlue">#B3CCD1</color>
+    <color name="colorTelappyBlack">#1D1D1F</color>
+    <color name="colorTelappyHighOpacityBlack">#99000000</color>
+    <color name="colorTelappyLowOpacityBlack">#66000000</color>
+    <color name="colorControlHighlight">#1A000000</color>
+    <color name="colorTelappyGray">#F5F5F5</color>
+    <color name="colorSplashScreenGray">#F3F3F3</color>
+    <color name="colorTelappyHintBlack">#C4C4C4</color>
+    <color name="colorTelappyWhite">#FFFFFF</color>
+    <color name="colorTelappyLowOpacityWhite">#66ffffff</color>
+    <color name="colorTelappyYellow">#FFC300</color>
+    <color name="colorTelappyDarkGray">#878787</color>
+    <color name="colorTelappyRed">#FF7A75</color>
+    <color name="colorTelappyHighOpacityGray">#80FFFFFF</color>
+    <color name="colorTelappyPurple">#BCBFC6</color>
+    <color name="colorTelappyLightPurple">#D3D3D3</color>
+    <color name="colorTelappyLowOpacityGreen">#CBDDCD</color>
+    <color name="colorTelappyLowOpacityRed">#E9DBDB</color>
+    <color name="colorTelappyLightOrange">#fbc79a</color>
+    <color name="colorTelappyLowOpacityOrange">#FFC7B0</color>
+    <color name="colorTelappyLightPink">#FFC7C8</color>
+    <color name="colorTelappyPastelGray">#BDBFC1</color>
+    <color name="colorTelappyLowOpacityPink">#F3CBBD</color>
+    <color name="colorTelappyLowOpacityGray">#c7cdc5</color>
+    <color name="colorTelappyLightGreen">#90cdc3</color>
+    <color name="colorTelappyLowOpacityPurple">#f5d1d2</color>
+    <color name="colorTelappyPink">#FFDFD7</color>
+    <color name="colorTelappyPastelLightGreen">#BAE5D5</color>
+    <color name="colorTelappyPastelLightGray">#E6E7E5</color>
+    <color name="colorTelappyPastelPink">#FFB4AC</color>
+
+
+
+    <color name="colorLowOpacityGreen">#CBF3EA</color>
+    <color name="colorBottomNavigationUnSelectedColor">#C4C4C4</color>
+    <color name="colorLowOpacityRed">#daa592</color>
+    <color name="colorAlBiTerapiDarkPink">#f0b5b8</color>
+    <color name="colorDialogColor">#F8F8F8</color>
+    <color name="localBackground">#827b92</color>
+    <color name="mtrl_textinput_default_box_stroke_color">#CBF3EA</color>
+
+</resources>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:weightSum="1"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.95"
+        android:fillViewport="true"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/tilLanguageTest"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense.ExposedDropdownMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="60dp"
+                    android:hint="Hizmet vermek istediğiniz diller"
+                    app:endIconDrawable="@drawable/spinner_checkbox_selector"
+                    app:endIconMode="dropdown_menu">
+
+                    <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                        android:id="@+id/etLanguageTest"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="none"
+                        android:longClickable="false" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/cgLanguageTest"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </com.google.android.material.chip.ChipGroup>
+            </LinearLayout>
+
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                app:shimmer_direction="left_to_right"
+                app:shimmer_duration="1500">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <include layout="@layout/horizontal_wide_shimmer" />
+
+                    <include layout="@layout/horizontal_wide_shimmer" />
+
+                    <include layout="@layout/horizontal_wide_shimmer" />
+
+                    <include layout="@layout/horizontal_wide_shimmer" />
+
+                    <include layout="@layout/horizontal_wide_shimmer" />
+                </LinearLayout>
+
+            </com.facebook.shimmer.ShimmerFrameLayout>
+
+
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:shimmer_direction="left_to_right"
+                app:shimmer_duration="2000">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:orientation="horizontal">
+
+                        <include layout="@layout/vertical_shimmer" />
+
+                        <include layout="@layout/vertical_shimmer" />
+
+                        <include layout="@layout/vertical_shimmer" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:orientation="horizontal">
+
+                        <include layout="@layout/vertical_shimmer" />
+
+                        <include layout="@layout/vertical_shimmer" />
+
+                        <include layout="@layout/vertical_shimmer" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:orientation="horizontal">
+
+                        <include layout="@layout/vertical_shimmer" />
+
+                        <include layout="@layout/vertical_shimmer" />
+
+                        <include layout="@layout/vertical_shimmer" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </com.facebook.shimmer.ShimmerFrameLayout>
+
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:shimmer_direction="left_to_right"
+                app:shimmer_duration="2000">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <include layout="@layout/horizontal_small_shimmer" />
+
+                    <include layout="@layout/horizontal_small_shimmer" />
+
+                    <include layout="@layout/horizontal_small_shimmer" />
+
+                    <include layout="@layout/horizontal_small_shimmer" />
+
+                    <include layout="@layout/horizontal_small_shimmer" />
+
+                    <include layout="@layout/horizontal_small_shimmer" />
+
+                    <include layout="@layout/horizontal_small_shimmer" />
+
+                    <include layout="@layout/horizontal_small_shimmer" />
+
+                    <include layout="@layout/horizontal_small_shimmer" />
+
+                </LinearLayout>
+
+            </com.facebook.shimmer.ShimmerFrameLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
